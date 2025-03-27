@@ -104,7 +104,7 @@ do you want to extract photon count intensities] and then confirmation or reject
 steps of the program for each file to analyze - [1] manually selecting an area to analyze and [2] 
 calling the line tracking algorithm for each fluorophore color.
 
-[Link to more in-depth tutorial] (Tutorial for kymotracker_calling_script.pdf)
+See "Tutorial for kymotracker_calling_script.pdf" in this GitHub repository for more in depth instructions.
 
 ## Feedback/Questions/Concerns
 Please direct any feedback/issues/constructive criticism/correspondence to jwatters@rockefeller.edu
