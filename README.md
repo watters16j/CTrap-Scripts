@@ -1,6 +1,6 @@
 # CTrap-Scripts
 Scripts for data analysis/automation using the Lumicks CTrap instrument. There are two different scripts here. "CTrapVis.py" is best used for general looking through kymograph images one by one and extracting desired features. "Area_photon_count_extractor.py" is best used to batch extract photon counts from static molecules.  
-
+TEST
 ## CTrapVis
 This script is the first version of a GUI designed to dynamically look through .h5 files from a Lumicks C-Trap instrument as part of a project from Professor Shixin Liu's Laboratory of Nanoscale Biophysics and Biochemistry at The Rockefeller University. This script allows users to take full advantage of the tools in the pylake library to visualize and extract data of interest without python scripting knowledge or the need for a computer with Bluelake software. Script users are able to choose what plots they want (Force vs. Distance, Force vs. Time, RGB image, or a combination of RGB and one of the force options) with options to customize the plot to add a title, scale RGB image values, shift axis of all available axis. This script can analyze kymograph, scans/multiple scans, and force-distance objects contained within a .h5 file
 
