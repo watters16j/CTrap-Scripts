@@ -84,5 +84,27 @@ Version Information:
 * matplotlib - 3.5.1
 * numpy - 1.22.3
 
+# Kymotracking Calling Script
+This script is designed to process TDMS and .h5 kymograph files and perform batch processing 
+of tracked line foci for downstream analysis. Lines are tracked using either of Lumicks' two line 
+tracking algorithms – more information can be found at Lumicks' Kymotracking Tutorial. This 
+script automatically exports the lines tracked for each of the colors requested (time data in 
+second, coordinate data in nm) as well as the kymotracking settings for each call of the algorithm 
+in a .xlsx file. Metadata from the files is stored in a separate .csv file. There are built in options to 
+extract the photon counts around the foci (as determined by the line_width variable) and the 
+distance between a chosen foci color and the other color's foci. All additional data is stored in the 
+same .xlsx file. 
+ 
+This script uses text inputs instead of graphical inputs because it is easier to program text inputs 
+in when doing batch processing of data. Questions will be asked out to the terminal and user 
+input is required to both provide initial information about the batch processing [what folder are 
+the .tdms/.h5 files to analyze in, what tracking method to use, what fluorophores to track, what 
+type of area do you want to analyze (rectangle across the whole trace or a more complex region), 
+do you want to extract photon count intensities] and then confirmation or rejection of the two 
+steps of the program for each file to analyze - [1] manually selecting an area to analyze and [2] 
+calling the line tracking algorithm for each fluorophore color.
+
+[Link to more in-depth tutorial] (Tutorial for kymotracker_calling_script.pdf)
+
 ## Feedback/Questions/Concerns
 Please direct any feedback/issues/constructive criticism/correspondence to jwatters@rockefeller.edu
