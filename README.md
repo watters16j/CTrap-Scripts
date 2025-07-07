@@ -7,3 +7,5 @@ Individual Functions (best used for batch extraction)
 * Area photon count calculator
 
 Please navigate to Automation for example automation scripts.
+
+E-mail me at johnwatters97@gmail.com for any questions or issues!
