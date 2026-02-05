@@ -358,8 +358,8 @@ def extract_lines_data(filepath,dict_kymotracking_method_storage, color_list, h5
         
         #extract photon count data
         red_photon_counts = kymo_object.red_image
-        green_photon_counts = kymo_object.blue_image
-        blue_photon_counts = kymo_object.green_image
+        green_photon_counts = kymo_object.green_image
+        blue_photon_counts = kymo_object.blue_image
         
         pixel_size_um = kymo_object.pixelsize_um
         pixel_size_nm = pixel_size_um * 1000
@@ -774,3 +774,4 @@ pd_data_frame.to_excel(writer,sheet_name="Kymotracker Settings",index=False,head
 # properly save and close both the .xlsx summary document and the metadata .csv file
 writer.save()
 output_file.close()
+
